@@ -9,14 +9,14 @@ html, body {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, #000 50%, #fff 50%);
+  background: linear-gradient(to bottom, #000 %, #fff 50%);
   overflow: hidden;
 }
 
 div {
   /* this height and width values are specific to this example */
   width: 100vw;
-  height: 50vw;
+  height: 85vw;
   /* center the div vertically and horizontally to make it look nicer */
   position: absolute;
   top: 50%;
