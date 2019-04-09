@@ -1,0 +1,47 @@
+/* universal styles */
+html {
+  font-size: 18px;
+}
+
+img {
+  animation: .1s ani infinite;
+  filter: drop-shadow(2px 0 1px red) drop-shadow(-2px 0 1px cyan);
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes ani {
+  to {
+    filter: drop-shadow(-2px 0 1px red) drop-shadow(2px 0 1px cyan);
+  }
+}
+
+
+/* Superflous Sytling*/
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans);
+
+body {
+  color: #333;
+}
+article {
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 2vw;
+}
+h1 {
+  font-family: 'Droid Serif';
+  text-align: center;
+  text-shadow: 1px 0 0 red, -1px 0 0 cyan;
+}
+img {
+  width: 100%;
+}
+a {
+  border-bottom: 1px solid transparent;
+  color: #3498db;
+  text-decoration: none;
+  &:hover {
+    border-bottom: 1px solid #3498db;
+  }
+}
